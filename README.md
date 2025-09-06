@@ -1,4 +1,4 @@
-# Emoji Catalog - Nuxt 4 Project
+# Emoji Catalog - Nuxt 4 Project https://emoji-hub-mauve.vercel.app
 
 **Emoji Catalog** — это веб-приложение для поиска эмодзи и их описаний. Пользователи могут легко находить эмодзи по ключевым словам и добавлять понравившиеся эмодзи в избранное. Также добавлены анимации для улучшения взаимодействия с пользователем.
 
@@ -27,7 +27,7 @@
 1. Клонируйте репозиторий:
 
 ```bash
-git clone https://github.com/yourusername/emoji-catalog.git
+git clone https://github.com/wlvck/emoji-catalog
 cd emoji-catalog
 # npm
 npm install
