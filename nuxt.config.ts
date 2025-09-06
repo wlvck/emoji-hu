@@ -2,17 +2,15 @@
 export default defineNuxtConfig({
   compatibilityDate: "2025-07-15",
   devtools: { enabled: true },
-  ssr: false,
+  ssr: true,
 
-  components: [
-    { path: '~/components', pathPrefix: true }
-  ],
+  components: [{ path: "~/components", pathPrefix: true }],
 
   modules: [
     "@nuxtjs/tailwindcss",
     "@nuxt/icon",
     "vuetify-nuxt-module",
-    "@pinia/nuxt"
+    "@pinia/nuxt",
   ],
-  css: ['@/assets/css/style.css']
+  css: ["@/assets/css/style.css"],
 });
